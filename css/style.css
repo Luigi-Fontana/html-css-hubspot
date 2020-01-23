@@ -238,3 +238,7 @@ nav {
     border-top: 3px solid #33475c;
     border-bottom: 3px solid #33475c;
 }
+
+.bg-main {
+    background-color: #f5f8fa;
+}
