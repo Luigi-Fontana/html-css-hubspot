@@ -21,11 +21,11 @@ body {
     margin: 0 auto;
 }
 
-.bg-navbar {
+.bg-header {
     background-color: #f5f8fa;
 }
 
-.bg-header {
+.bg-navbar {
     background-color: #ffffff;
 }
 
