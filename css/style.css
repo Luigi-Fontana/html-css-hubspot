@@ -28,6 +28,7 @@ a {
 
 .btn:hover {
     cursor: pointer;
+    opacity: 0.8
 }
 
 .container {
@@ -244,7 +245,7 @@ nav {
 }
 
 .icon {
-    width:75%;
+    width: 70%;
     margin: 100px auto 50px;
     text-align: center;
 }
@@ -262,4 +263,81 @@ nav {
     color: #6b7a89;
     font-weight: 300;
     margin: 20px 0;
+}
+
+.crm {
+    width:80%;
+    background-color: #ffffff;
+    margin: 50px auto;
+    box-shadow: 30px 30px 50px #f0f4f8,
+                -30px -30px 50px #f0f4f8,
+                30px -30px 50px #f0f4f8,
+                -30px 30px 50px #f0f4f8;
+}
+
+.crm-left {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    float: left;
+}
+
+.crm-left img {
+    width: 152px;
+    margin: 30px;
+}
+
+.btn-small {
+    font-size: 14px;
+    padding: 13px 27px;
+}
+
+.crm-right {
+    width: 60%;
+    padding: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.layout h2 {
+    color: #33475b;
+    font-size: 20px;
+}
+
+.layout p {
+    font-size: 14px;
+    color: #6b7a89;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.layout h3 {
+    font-size: 14px;
+    color: #33475b;
+    text-transform: uppercase;
+    position: relative;
+    margin: 20px 0;
+}
+
+.layout h3:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 2px solid #e0e6ed;
+    top: 4px;
+    width: 75%;
+}
+
+.layout li {
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+}
+
+.fa-check-circle {
+    font-size: 20px;
+    color: #ff7a59;
+    margin-right: 10px;
 }
