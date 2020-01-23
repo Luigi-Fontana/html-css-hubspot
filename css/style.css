@@ -242,3 +242,24 @@ nav {
 .bg-main {
     background-color: #f5f8fa;
 }
+
+.icon {
+    width:75%;
+    margin: 100px auto 50px;
+    text-align: center;
+}
+
+.icon img {
+    width: 260px;
+}
+
+.icon h2 {
+    font-size: 32px;
+    color: #33475b;
+}
+
+.icon p {
+    color: #6b7a89;
+    font-weight: 300;
+    margin: 20px 0;
+}
