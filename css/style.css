@@ -19,6 +19,17 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    color: white;
+    border: none;
+    background-color: #ff7a59;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
 .container {
     width: 80%;
     max-width: 1200px;
@@ -36,7 +47,15 @@ header {
     line-height: 50px;
 }
 
-.header-left:hover {
+.header-left {
+    float: left;
+}
+
+.change {
+    float: left;
+}
+
+.change:hover {
     cursor: pointer;
 }
 
@@ -59,7 +78,11 @@ header {
     border-right: 2px solid #cbd6e2;
 }
 
-.header-left a {
+.contact {
+    float: left;
+}
+
+.contact a {
     color: #33475b;
     font-size: 14px;
     padding-left: 8px;
@@ -71,4 +94,31 @@ header {
 
 .bg-banner {
     background-color: #425b76;
+}
+
+.header-right {
+    float: right;
+}
+
+.fa-search {
+    color: #00a4bd;
+    margin-right: 20px;
+}
+
+.fa-search:hover {
+    cursor: pointer;
+}
+
+.btn-login {
+    color: #ff7a59;
+    background-color: #ffffff;
+    border: 1px solid #ff7a59;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.btn-free {
+    padding: 10px 15px;
+    margin: 0 5px;
 }
