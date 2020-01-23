@@ -11,8 +11,12 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Lato", sans-serif;
     overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -23,6 +27,42 @@ body {
 
 .bg-header {
     background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+header {
+    height: 74px;
+    padding: 10px 12px 14px 12px;
+    line-height: 50px;
+}
+
+.header-left:hover {
+    cursor: pointer;
+}
+
+.fa-globe {
+    color: #33475b;
+    margin-left: 10px;
+}
+
+.language {
+    font-size: 14px;
+    color: #33475b;
+    margin: 0 10px;
+}
+
+.language:after {
+    content: "\25BC";
+    font-size: 12px;
+    color: #7c98b6;
+    padding: 5px 20px 5px 10px;
+    border-right: 2px solid #cbd6e2;
+}
+
+.header-left a {
+    color: #33475b;
+    font-size: 14px;
+    padding-left: 8px;
 }
 
 .bg-navbar {
