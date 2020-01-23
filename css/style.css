@@ -12,4 +12,23 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-navbar {
+    background-color: #f5f8fa;
+}
+
+.bg-header {
+    background-color: #ffffff;
+}
+
+.bg-banner {
+    background-color: #425b76;
 }
