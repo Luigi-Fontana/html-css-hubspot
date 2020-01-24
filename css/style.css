@@ -13,6 +13,7 @@
 body {
     font-family: "Lato", sans-serif;
     overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -21,6 +22,7 @@ a {
 
 .btn {
     color: white;
+    font-weight: bold;
     border: none;
     background-color: #ff7a59;
     border-radius: 3px;
@@ -144,6 +146,7 @@ nav {
 
 .navbar-right li {
     color: #425b76;
+    font-weight: 600;
     margin: 0 15px;
     list-style: none;
     float: left;
@@ -177,7 +180,6 @@ nav {
 
 .banner-left p {
     font-size: 15px;
-    font-weight: 300;
     color: #ffffff;
     line-height: 2.0;
     padding-left: 30px;
@@ -190,7 +192,7 @@ nav {
 .btn-learn {
     background-color: #ffffff;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: bold;
     color: #425b76;
     padding: 13px 25px;
     margin: 0 5px;
@@ -217,9 +219,8 @@ nav {
 }
 
 .title p {
-    color: #4d5d6e;
+    color: #425b76;
     line-height: 1.7;
-    font-weight: 300;
     margin: 20px 0;
 }
 
@@ -263,8 +264,7 @@ nav {
 }
 
 .icon p {
-    color: #6b7a89;
-    font-weight: 300;
+    color: #425b76;
     margin: 20px 0;
 }
 
@@ -306,23 +306,21 @@ nav {
 
 .layout h2 {
     color: #33475b;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 1px;
 }
 
 .layout p {
     font-size: 14px;
-    color: #6b7a89;
+    color: #425b76;
     line-height: 1.7;
-    font-weight: 300;
     margin: 20px 0;
     text-align: left;
 }
 
 .layout h3 {
-    font-size: 14px;
+    font-size: 13px;
     color: #33475b;
-    font-weight: 400;
     text-transform: uppercase;
     position: relative;
     margin: 20px 0;
@@ -354,7 +352,8 @@ nav {
 
 .hub {
     width:80%;
-    margin: 30px auto;
+    margin: 0 auto;
+    padding: 30px 0;
 }
 
 .pdg {
@@ -423,6 +422,86 @@ nav {
 }
 
 .bg-table {
-    height: 500px;
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.bg-table .container {
+    text-align: center;
+}
+
+.comm {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.comm h4 {
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.bg-table p {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.comm p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.table {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.cell {
+    width: 25%;
+    float:left;
+    padding: 30px;
+}
+
+.table img {
+    height: 33px;
+}
+
+.table h3 {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 7px 0;
+    position: relative;
+}
+
+.cont-one h3::after,
+.cont-two h3::after,
+.cont-three h3::after,
+.cont-five h3::after,
+.cont-seven h3::after,
+.cont-eight h3::after {
+    content: "+";
+    position: absolute;
+    top: 35%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cell-one,
+.cell-two,
+.cell-three,
+.cell-four {
+    border-bottom: 1px solid #ffffff;
+}
+
+.cell-one,
+.cell-two,
+.cell-three,
+.cell-five,
+.cell-six,
+.cell-seven {
+    border-right: 1px solid #ffffff;
 }
