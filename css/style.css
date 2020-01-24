@@ -240,17 +240,27 @@ nav {
     padding: 20px 0;
 }
 
+.title small {
+    padding-bottom: 100px;
+}
+
 .btn-big {
     font-size: 16px;
     padding: 25px 45px;
     display: block;
 }
 
+.png img {
+    position: absolute;
+    bottom: 92px;
+    left: 250px;
+}
+
 .bg-div {
     height: 90px;
-    background-color: #98e5dc;
     border-top: 3px solid #33475c;
     border-bottom: 3px solid #33475c;
+    background-image: linear-gradient(45deg, #98e5dc, #00a48d);
 }
 
 main {
