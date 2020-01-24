@@ -53,18 +53,18 @@ small {
     margin: 0 auto;
 }
 
-.bg-header {
+.bg-fixed {
     height: 74px;
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
 }
 
-header {
+.fixed {
     padding: 10px 12px 14px 12px;
     line-height: 50px;
 }
 
-.header-left {
+.fixed-left {
     float: left;
 }
 
@@ -105,7 +105,7 @@ header {
     padding-left: 8px;
 }
 
-.header-right {
+.fixed-right {
     float: right;
 }
 
@@ -132,7 +132,7 @@ header {
     margin: 0 5px;
 }
 
-.bg-navbar {
+header {
     background-color: #ffffff;
 }
 
@@ -244,7 +244,7 @@ nav {
     border-bottom: 3px solid #33475c;
 }
 
-.bg-main {
+main {
     background-color: #f5f8fa;
 }
 
