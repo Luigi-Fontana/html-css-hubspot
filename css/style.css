@@ -606,10 +606,12 @@ footer a:hover {
 
 .tools {
     padding-top: 100px;
+    padding-bottom: 15px;
 }
 
 .tools h4{
     color: #ffffff;
+    padding-bottom: 5px;
 }
 
 .tls {
@@ -631,5 +633,35 @@ footer a:hover {
 }
 
 .tls-four li:last-child:hover {
+    cursor: pointer;
+}
+
+.contact {
+    width: 25%;
+    float: right;
+}
+
+.contact .btn {
+    font-size: 12px;
+    font-weight: 400;
+    color: #33475b;
+    background-color: #ffffff;
+    padding: 10px 15px;
+}
+
+.cnt-icon {
+    width: 16.6666%;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.cnt-icon i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.cnt-icon i:hover {
+    color: #7fd1de;
     cursor: pointer;
 }
