@@ -505,3 +505,53 @@ nav {
 .cell-seven {
     border-right: 1px solid #ffffff;
 }
+
+.bg-sponsor {
+    height: 1000px;
+}
+
+.sponsor {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.business {
+    width: 30%;
+    float: left;
+}
+
+.business h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #33475b;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+.business p {
+    color: #425b76;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.customers {
+    width: 60%;
+    margin-left: 10%;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cst {
+    width: 25%;
+    height: 85px;
+    line-height: 85px;
+    float: left;
+}
+
+.customers img {
+    width: 110px;
+    vertical-align: middle;
+}
