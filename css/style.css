@@ -248,11 +248,12 @@ nav {
 
 .icon {
     width: 70%;
-    margin: 100px auto 50px;
+    margin: 0 auto 50px;
     text-align: center;
 }
 
 .icon img {
+    margin-top: 100px;
     width: 260px;
 }
 
@@ -270,11 +271,11 @@ nav {
 .crm {
     width:80%;
     background-color: #ffffff;
-    margin: 50px auto;
-    box-shadow: 30px 30px 50px #425b76,
-                -30px -30px 50px #425b76,
-                30px -30px 50px #425b76,
-                -30px 30px 50px #425b76;
+    margin: 0 auto;
+    box-shadow: 20px 20px 20px #f0f4f8,
+                -20px -20px 20px #f0f4f8,
+                20px -20px 20px #f0f4f8,
+                -20px 20px 20px #f0f4f8;
 }
 
 .crm-left {
@@ -293,6 +294,7 @@ nav {
 .btn-small {
     font-size: 14px;
     padding: 13px 27px;
+    margin: 20px 0;
 }
 
 .crm-right {
@@ -326,7 +328,7 @@ nav {
     margin: 20px 0;
 }
 
-.layout h3:after {
+.crm-right h3:after {
     content: "";
     position: absolute;
     height: 5px;
@@ -352,19 +354,37 @@ nav {
 
 .hub {
     width:80%;
-    background-color: #ffffff;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
-.market,
-.sales,
-.service {
+.pdg {
     width: 33.3333%;
     float: left;
-    box-shadow: 5px 5px 5px #425b76,
-                -5px -5px 5px #425b76,
-                5px -5px 5px #425b76,
-                -5px 5px 5px #425b76;
+    margin-bottom: 100px;
+}
+
+.pdg-one {
+    padding-right: 15px;
+}
+
+.pdg-two {
+    padding: 0 15px;
+}
+
+.pdg-three {
+    padding-left: 15px;
+}
+
+.market {
+    background-color: #ffffff;
+}
+
+.sales {
+    background-color: #ffffff;
+}
+
+.service {
+    background-color: #ffffff;
 }
 
 .index {
@@ -383,6 +403,21 @@ nav {
 
 .index hr {
     color: #e0e6ed;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
+}
+
+.list {
+    margin: 35px;
+    text-align: center;
+}
+
+.list li {
+    float: none;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.hub .btn-small {
+    margin: 30px 0;
 }
