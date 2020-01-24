@@ -720,3 +720,27 @@ footer p {
 .end-stuff a{
     padding: 0 20px;
 }
+
+.token {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 15px;
+    padding: 15px;
+    background-color: #425b76;
+    border-radius: 50%;
+}
+
+.token i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.token:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #425b76,
+                -3px -3px 5px #425b76,
+                3px -3px 5px #425b76,
+                -3px 3px 5px #425b76;
+}
