@@ -584,3 +584,52 @@ main {
 .grow img {
     width: 350px;
 }
+
+footer {
+    height: 500px;
+    background-color: #33475b;
+    letter-spacing: 1px;
+}
+
+footer li {
+    color: #ffffff;
+    list-style: none;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #7fd1de;
+}
+
+.tools {
+    padding-top: 100px;
+}
+
+.tools h4{
+    color: #ffffff;
+}
+
+.tls {
+    width: 25%;
+    float: left;
+}
+
+.tools li {
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.tls-four li:last-child:after {
+    content: "\25BC";
+    display: inline;
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.tls-four li:last-child:hover {
+    cursor: pointer;
+}
