@@ -269,7 +269,9 @@ nav {
 }
 
 .back img{
-    position: relative;
+    position: absolute;
+    top: 42%;
+    left: 0;
 }
 
 .bg-div {
