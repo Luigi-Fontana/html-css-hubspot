@@ -118,13 +118,30 @@ small {
     float: right;
 }
 
+input {
+    display: none;
+    color: #425b76;
+    border-radius: 5px;
+    border: 1px solid #00a4bd;
+    padding: 3px 5px;
+    box-shadow: 0 0 5px #00a4bd;
+}
+
 .fa-search {
     color: #00a4bd;
-    margin-right: 20px;
+    padding: 0 5px;
 }
 
 .fa-search:hover {
     cursor: pointer;
+}
+
+.searchbar {
+    display: inline;
+}
+
+.searchbar:hover input {
+    display: inline;
 }
 
 .btn-login {
@@ -133,7 +150,8 @@ small {
     border: 1px solid #ff7a59;
     padding: 10px 15px;
     border-radius: 3px;
-    margin: 0 5px;
+    margin-right: 5px;
+    margin-left: 15px;
 }
 
 .btn-free {
