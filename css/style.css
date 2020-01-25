@@ -268,10 +268,8 @@ nav {
     display: block;
 }
 
-.png img {
-    position: absolute;
-    bottom: 92px;
-    left: 250px;
+.back img{
+    position: relative;
 }
 
 .bg-div {
