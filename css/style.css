@@ -668,7 +668,7 @@ footer a:hover {
     padding: 10px 0;
 }
 
-.tls-four li:last-child:after {
+.arw:after {
     content: "\25BC";
     display: inline;
     font-size: 12px;
@@ -676,8 +676,22 @@ footer a:hover {
     padding-left: 5px;
 }
 
-.tls-four li:last-child:hover {
+.arw:hover + .ul-gen {
     cursor: pointer;
+    display: block;
+}
+
+.ul-gen {
+    padding-top: 10px;
+    display: none;
+}
+
+.ul-gen li {
+    font-size: 11px;
+}
+
+.ul-gen:hover {
+    display: block;
 }
 
 .contact {
